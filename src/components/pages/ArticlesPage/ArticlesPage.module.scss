@@ -1,0 +1,116 @@
+$title-blue: #1890FF;
+
+.articles {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.article-item {
+  cursor: default;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 941px;
+  height: 140px;
+  border-radius: 5px;
+  filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.15));
+  margin-bottom: 26px;
+  padding: 20px;
+}
+
+.article-text {
+  max-width: 650px;
+}
+
+.article-item-info {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  h2 {
+    color: $title-blue;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 0;
+  }
+  .article-item-likes-info {
+    cursor: pointer;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    span {
+      display: flex;
+      align-items: center;
+    }
+  }
+  .article-item-likes-count {
+    position: absolute;
+    color: rgba(0, 0, 0, 0.75);
+    transform: translate(20px);
+  }
+}
+
+.article-tags {
+  background: #fff;
+}
+
+.tagname {
+  background-color: rgb(255, 255, 255);
+  display: inline-flex;
+  margin: 6px 8px 6px 0;
+  padding: 2px 5px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.article-description {
+  font-size: 12px;
+  max-width: 650px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.userinfo {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  .usertext {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    .username {
+      text-align: end;
+      display: block;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+      color: rgba(0, 0, 0, 0.85);
+    }
+    .published {
+      font-size: 12px;
+      line-height: 22px;
+      color: rgba(0, 0, 0, 0.5);
+      min-width: 100px;
+      text-align: end;
+    }
+  }
+  img {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    margin-left: 12px;
+  }
+}
+
+.pagination {
+  li {
+    border-radius: 5px;
+  }
+}
