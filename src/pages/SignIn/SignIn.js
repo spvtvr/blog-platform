@@ -3,7 +3,7 @@ import { useForm } from 'react-hook-form';
 import { useDispatch } from 'react-redux';
 import { useEffect } from 'react';
 
-import { loginUser } from '../../../store/usersSlice';
+import { loginUser } from '../../store/usersSlice';
 
 import classes from './SignIn.module.scss';
 

@@ -4,7 +4,7 @@ import { useForm } from 'react-hook-form';
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
 
-import { registerUser, setUserData, loginUser, getCurrentUser } from '../../../store/usersSlice';
+import { registerUser, setUserData, loginUser, getCurrentUser } from '../../store/usersSlice';
 
 import classes from './SignUp.module.scss';
 

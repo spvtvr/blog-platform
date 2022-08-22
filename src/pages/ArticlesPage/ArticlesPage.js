@@ -6,8 +6,8 @@ import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { v4 } from 'uuid';
 
-import { getArticles, setPageNumber, favoriteArticle } from '../../../store/articlesSlice';
-import Spinner from '../../Spinner/Spinner';
+import { getArticles, setPageNumber, favoriteArticle } from '../../store/articlesSlice';
+import Spinner from '../../components/Spinner/Spinner';
 
 import classes from './ArticlesPage.module.scss';
 

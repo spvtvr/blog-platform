@@ -24,7 +24,7 @@
       font-weight: 400;
       font-size: 20px;
       line-height: 28px;
-      color: #1890FF;
+      color: #1890ff;
     }
     .info-likes {
       cursor: pointer;
@@ -119,20 +119,20 @@
   }
   .edit {
     margin-left: 6px;
-    color: #52C41A;
-    border: 1px solid #52C41A;
-    transition: .3s;
+    color: #52c41a;
+    border: 1px solid #52c41a;
+    transition: 0.3s;
     &:hover {
-      background: #52C41A;
+      background: #52c41a;
       color: #fff;
     }
   }
   .delete {
-    color: #F5222D;
-    border: 1px solid #F5222D;
-    transition: .3s;
+    color: #f5222d;
+    border: 1px solid #f5222d;
+    transition: 0.3s;
     &:hover {
-      background: #F5222D;
+      background: #f5222d;
       color: #fff;
     }
   }

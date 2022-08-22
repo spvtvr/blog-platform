@@ -7,8 +7,8 @@ import { v4 } from 'uuid';
 import { format } from 'date-fns';
 import ReactMarkdown from 'react-markdown';
 
-import { getArticleItem, getArticles, removeArticleItem, favoriteArticle } from '../../../store/articlesSlice';
-import Spinner from '../../Spinner/Spinner';
+import { getArticleItem, getArticles, removeArticleItem, favoriteArticle } from '../../store/articlesSlice';
+import Spinner from '../../components/Spinner/Spinner';
 
 import classes from './ArticlesItemPage.module.scss';
 

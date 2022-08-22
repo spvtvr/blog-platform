@@ -12,7 +12,7 @@ import {
   clearTagList,
   updateArticleItem,
   setIsEditTagList,
-} from '../../../store/articlesSlice';
+} from '../../store/articlesSlice';
 
 import classes from './NewArticle.module.scss';
 
@@ -48,6 +48,7 @@ const NewArticle = () => {
   const handleAddTag = (e, value) => {
     e.preventDefault();
     if (value.length > 0) dispatch(setTagList(value));
+    document.getElementById('tagInput').value = '';
   };
 
   const handleRemoveTag = (e, tag) => {
@@ -135,6 +136,7 @@ const NewArticle = () => {
               Tags
               <div className={classes.tags}>
                 <input
+                  id="tagInput"
                   onKeyDown={(e) => tagInputHandle(e)}
                   className={classes.tag}
                   placeholder="Add tag"

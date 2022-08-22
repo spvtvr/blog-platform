@@ -3,12 +3,12 @@ import { Route, Routes } from 'react-router-dom';
 import 'antd/dist/antd.min.css';
 
 import Header from '../Header';
-import ArticlesPage from '../pages/ArticlesPage';
-import ArticlesItemPage from '../pages/ArticlesItemPage';
-import SignUp from '../pages/SignUp';
-import SignIn from '../pages/SignIn';
-import ProfilePage from '../pages/ProfilePage';
-import NewArticle from '../pages/NewArticle';
+import ArticlesPage from '../../pages/ArticlesPage';
+import ArticlesItemPage from '../../pages/ArticlesItemPage';
+import SignUp from '../../pages/SignUp';
+import SignIn from '../../pages/SignIn';
+import ProfilePage from '../../pages/ProfilePage';
+import NewArticle from '../../pages/NewArticle';
 
 const App = () => {
   return (

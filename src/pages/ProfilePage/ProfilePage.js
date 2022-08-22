@@ -2,7 +2,7 @@ import { Navigate } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
 import { useDispatch, useSelector } from 'react-redux';
 
-import { updateUser } from '../../../store/usersSlice';
+import { updateUser } from '../../store/usersSlice';
 
 import classes from './ProfilePage.module.scss';
 

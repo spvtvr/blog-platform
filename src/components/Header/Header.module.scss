@@ -1,4 +1,4 @@
-$sign-up: #52C41A;
+$sign-up: #52c41a;
 
 .header {
   width: 100%;
@@ -37,7 +37,7 @@ $sign-up: #52C41A;
       line-height: 28px;
       margin-left: 28px;
       padding: 6px 18px;
-      transition: .3s;
+      transition: 0.3s;
       &:hover {
         background-color: $sign-up;
         color: #fff;
@@ -70,16 +70,16 @@ $sign-up: #52C41A;
     cursor: pointer;
     text-align: end;
     padding: 6px 10px 5px 10px;
-    color: #52C41A;
+    color: #52c41a;
     background: #fff;
-    border: 1px solid #52C41A;
+    border: 1px solid #52c41a;
     border-radius: 5px;
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;
-    transition: .3s;
+    transition: 0.3s;
     &:hover {
-      background: #52C41A;
+      background: #52c41a;
       color: #fff;
     }
   }
@@ -93,7 +93,7 @@ $sign-up: #52C41A;
     border-radius: 5px;
     font-size: 18px;
     line-height: 28px;
-    transition: .3s;
+    transition: 0.3s;
     &:hover {
       background: rgb(51, 51, 51);
       color: #fff;
